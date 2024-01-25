@@ -1,0 +1,11 @@
+@import '../../../styles/spacing';
+
+.root {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 24px;
+}
+
+.title {
+    margin-bottom: $spacing-0-25;
+}

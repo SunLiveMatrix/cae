@@ -1,0 +1,27 @@
+@import '../../../styles/color';
+@import '../../../styles/type';
+@import '../../../styles/radius';
+
+.button {
+    line-height: 1.2;
+}
+
+.description {
+    font: $type-body-micro;
+    font-weight: 400;
+    color: rgba($color-primary, 0.75);
+}
+
+.customButtonColor {
+    background-color: $color-positive;
+    color: $color-background;
+}
+
+.customButtonShape {
+    border-radius: $radius-pill;
+}
+
+.customButtonStyle {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px $color-divider inset;
+}

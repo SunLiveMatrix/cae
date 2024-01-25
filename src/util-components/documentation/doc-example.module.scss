@@ -1,0 +1,15 @@
+@import '../../styles/color';
+@import '../../styles/spacing';
+@import '../../styles/type';
+
+.root {
+    width: 100%;
+    padding-top: $spacing-2;
+    padding-bottom: $spacing-2;
+}
+
+.description {
+    font: $type-body-small;
+
+    color: $color-secondary;
+}
